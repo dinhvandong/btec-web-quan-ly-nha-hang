@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/hello', function () {
     return view('welcome');
 });
+
+Route::get('/login-api', function () {
+    return view('welcome');
+});
