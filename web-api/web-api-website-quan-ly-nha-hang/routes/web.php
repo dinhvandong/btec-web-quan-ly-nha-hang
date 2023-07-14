@@ -78,3 +78,6 @@ Route::get('/get-all-pay', function () {
 Route::get('/search-product', function () {
     return view('welcome');
 });
+Route::get('/delete-product', function () {
+    return view('welcome');
+});
