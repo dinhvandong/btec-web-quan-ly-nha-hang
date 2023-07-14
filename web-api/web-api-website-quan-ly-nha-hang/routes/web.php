@@ -42,4 +42,7 @@ Route::get('/sign-in', function () {
 Route::get('/logout', function () {
     return view('welcome');
 });
+Route::get('/signup', function () {
+    return view('welcome');
+});
 
