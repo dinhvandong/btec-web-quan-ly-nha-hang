@@ -39,4 +39,7 @@ Route::get('/get-list-products', function () {
 Route::get('/sign-in', function () {
     return view('welcome');
 });
+Route::get('/logout', function () {
+    return view('welcome');
+});
 
