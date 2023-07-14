@@ -55,4 +55,8 @@ Route::get('/get-update', function () {
     return view('welcome');
 });
 
+Route::get('/get-client', function () {
+    return view('welcome');
+});
+
 
