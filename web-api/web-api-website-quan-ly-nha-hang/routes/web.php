@@ -36,3 +36,7 @@ Route::get('/get-list-products', function () {
     return view('welcome');
 });
 
+Route::get('/sign-in', function () {
+    return view('welcome');
+});
+
