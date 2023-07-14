@@ -65,4 +65,7 @@ Route::get('/create-student', function () {
 Route::get('/admin', function () {
     return view('welcome');
 });
+Route::get('/booking', function () {
+    return view('welcome');
+});
 
