@@ -25,3 +25,6 @@ Route::get('/hello', function () {
 Route::get('/login-api', function () {
     return view('welcome');
 });
+Route::get('/login-dontabc', function () {
+    return view('welcome');
+});
