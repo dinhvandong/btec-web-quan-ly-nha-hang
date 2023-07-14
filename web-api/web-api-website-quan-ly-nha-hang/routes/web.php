@@ -48,4 +48,8 @@ Route::get('/signup', function () {
 Route::get('/get-all-customer', function () {
     return view('welcome');
 });
+Route::get('/get-all-order', function () {
+    return view('welcome');
+});
+
 
