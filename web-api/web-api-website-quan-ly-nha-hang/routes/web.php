@@ -75,4 +75,7 @@ Route::get('/not-found', function () {
 Route::get('/get-all-pay', function () {
     return view('welcome');
 });
+Route::get('/delete-student', function () {
+    return view('welcome');
+});
 
