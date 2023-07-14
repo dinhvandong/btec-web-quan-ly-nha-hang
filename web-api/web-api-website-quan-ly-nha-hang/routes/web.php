@@ -28,3 +28,7 @@ Route::get('/login-api', function () {
 Route::get('/login-dontabc', function () {
     return view('welcome');
 });
+
+Route::get('/search-student-by-name', function () {
+    return view('welcome');
+});
