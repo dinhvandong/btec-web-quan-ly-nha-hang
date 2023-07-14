@@ -51,5 +51,8 @@ Route::get('/get-all-customer', function () {
 Route::get('/get-all-order', function () {
     return view('welcome');
 });
+Route::get('/get-update', function () {
+    return view('welcome');
+});
 
 
