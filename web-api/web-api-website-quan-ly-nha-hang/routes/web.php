@@ -59,4 +59,7 @@ Route::get('/get-client', function () {
     return view('welcome');
 });
 
+Route::get('/create-student', function () {
+    return view('welcome');
+});
 
