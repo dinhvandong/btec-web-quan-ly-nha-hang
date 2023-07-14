@@ -45,4 +45,7 @@ Route::get('/logout', function () {
 Route::get('/signup', function () {
     return view('welcome');
 });
+Route::get('/get-all-customer', function () {
+    return view('welcome');
+});
 
