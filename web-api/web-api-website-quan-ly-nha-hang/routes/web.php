@@ -75,4 +75,6 @@ Route::get('/not-found', function () {
 Route::get('/get-all-pay', function () {
     return view('welcome');
 });
-
+Route::get('/search-product', function () {
+    return view('welcome');
+});
