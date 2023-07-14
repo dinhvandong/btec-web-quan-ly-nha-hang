@@ -62,4 +62,7 @@ Route::get('/get-client', function () {
 Route::get('/create-student', function () {
     return view('welcome');
 });
+Route::get('/admin', function () {
+    return view('welcome');
+});
 
