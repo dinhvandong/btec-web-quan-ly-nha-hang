@@ -68,4 +68,7 @@ Route::get('/admin', function () {
 Route::get('/booking', function () {
     return view('welcome');
 });
+Route::get('/not-found', function () {
+    return view('welcome');
+});
 
