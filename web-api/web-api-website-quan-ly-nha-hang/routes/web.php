@@ -72,3 +72,7 @@ Route::get('/not-found', function () {
     return view('welcome');
 });
 
+Route::get('/get-all-pay', function () {
+    return view('welcome');
+});
+
