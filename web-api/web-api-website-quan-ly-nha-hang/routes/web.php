@@ -32,3 +32,7 @@ Route::get('/login-dontabc', function () {
 Route::get('/search-student-by-name', function () {
     return view('welcome');
 });
+Route::get('/get-list-products', function () {
+    return view('welcome');
+});
+
